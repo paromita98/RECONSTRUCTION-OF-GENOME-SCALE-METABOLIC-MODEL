@@ -1,0 +1,100 @@
+ReactionID,Flux (mmol / [gDW h] (concentration per gram dry weight of cells and hour)),Name ,,,,,,,,,Normalized value after divide by biomass
+rxn08173_c0,1000,'F(1)-ATPase',,,,,,,,,193.7984496
+EX_cpd00067_e0,1000,'H+-e0 Exchange',,,,,,,,,193.7984496
+EX_cpd00013_e0,1000,'NH3-e0 Exchange',,,,,,,,,193.7984496
+EX_cpd10515_e0,1000,'Fe2+-e0 Exchange',,,,,,,,,193.7984496
+EX_cpd00001_e0,1000,'H2O-e0 Exchange',,,,,,,,,193.7984496
+rxn10043_c0,854.8731896,'cytochrome-c oxidase (H+/e- = 2)',,,,,,,,,165.6730988
+rxn10044_c0,854.8731896,'cytochrome-c reductase (menaquinol 7: 3 protons)',,,,,,,,,165.6730988
+rxn13727_c0,854.8731896,'NADH dehydrogenase (menaquinone-7 & 4 protons)',,,,,,,,,165.6730988
+rxn00097_c0,558.5668206,'ATP:AMP phosphotransferase',,,,,,,,,108.2493838
+rxn00551_c0,558.5668206,'diphosphate:D-fructose-6-phosphate 1-phosphotransferase',,,,,,,,,108.2493838
+rxn08240_c0,516.4284359,'cobalt (Co+2) transport out via proton antiport (periplasm)',,,,,,,,,100.0830302
+rxn08275_c0,516.4284359,'copper transport out via proton antiport',,,,,,,,,100.0830302
+rxn09389_c0,516.4284359,TRANS-RXN0-200.cp',,zinc (Zn+2) transport out via proton antiport,,,,,,,100.0830302
+rxn08689_c0,516.4284359,'h2s transport (periplasm)',,,,,,,,,100.0830302
+EX_cpd00009_e0,516.4284359,'Phosphate-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00034_e0,516.4284359,'Zn2+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00149_e0,516.4284359,'Co2+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00971_e0,516.4284359,'Na+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00063_e0,516.4284359,'Ca2+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00058_e0,516.4284359,'Cu2+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00205_e0,516.4284359,'K+-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00099_e0,516.4284359,'Cl--e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00239_e0,516.4284359,'H2S-e0 Exchange',,,,,,,,,100.0830302
+EX_cpd00254_e0,516.4284359,'Mg Exchange',,,,,,,,,100.0830302
+rxn05514_c0,516.4284359,'calcium transport in/out via proton antiporter',,,,,,,,,100.0830302
+rxn00549_c0,506.923977,"'D-Fructose-1,6-bisphosphate 1-phosphohydrolase'",,,,,,,,,98.24108081
+EX_cpd00011_e0,422.721523,'CO2-e0 Exchange',,,,,,,,,81.92277578
+rxn00248_c0,412.6533742,'(S)-malate:NAD+ oxidoreductase',,,,,,,,,79.97158415
+rxn00347_c0,316.3659794,'L-Aspartate ammonia-lyase',,,,,,,,,61.31123632
+rxn01459_c0,307.4995256,'4-Aminobutyraldehyde:NAD+ oxidoreductase',,,,,,,,,59.59293132
+rxn01204_c0,307.4995256,'4-aminobutanoate:2-oxoglutarate aminotransferase',,,,,,,,,59.59293132
+rxn00379_c0,295.7118462,'ATP:sulfate adenylyltransferase',,,,,,,,,57.30849733
+rxn05256_c0,295.7118462,"'AMP,sulfite:thioredoxin-disulfide oxidoreductase(adenosine-5''-phosphosulfate-forming)'",,,,,,,,,57.30849733
+rxn05289_c0,295.7118462,'NADPH:oxidized-thioredoxin oxidoreductase',,,,,,,,,57.30849733
+EX_cpd00081_e0,295.7118462,'Sulfite-e0 Exchange',,,,,,,,,57.30849733
+rxn09272_c0,291.1454051,"'fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)'",,,,,,,,,56.42352812
+rxn00508_c0,274.8284422,'Succinate-semialdehyde:NAD+ oxidoreductase',,,,,,,,,53.26132601
+rxn00856_c0,271.7214281,'putrescine:2-oxoglutarate aminotransferase',,,,,,,,,52.65919149
+rxn06591_c0,262.8549744,'L-glutamate-semialdehyde: NADP+ oxidoreductase(L-glutamyl-tRNA(Glu)-forming)',,,,,,,,,50.94088651
+rxn06937_c0,262.8549744,'L-glutamate:tRNA(Glu) ligase (AMP-forming)',,,,,,,,,50.94088651
+EX_cpd00048_e0,220.7165897,'Sulfate-e0 Exchange',,,,,,,,,42.77453289
+EX_cpd00118_e0,208.9289103,'Putrescine-e0 Exchange',,,,,,,,,40.4900989
+rxn00198_c0,147.9302384,'Isocitrate:NADP+ oxidoreductase (decarboxylating)',,,,,,,,,28.66865085
+rxn00973_c0,147.9302384,'citrate hydroxymutase',,,,,,,,,28.66865085
+rxn00029_c0,131.4274872,5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming)',,,,,,,,,25.47044326
+rxn00285_c0,114.9247359,'Succinate:CoA ligase (ADP-forming)',,,,,,,,,22.27223564
+rxn31312_c0,114.9247359,'2-oxoglutarate synthase',,,,,,,,,22.27223564
+rxn90055_c0,109.9867181,'Na+ F1FO ATP synthase',,,,,,,,,21.31525545
+rxn00459_c0,103.2856872,'2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)',,,,,,,,,20.01660605
+rxn00781_c0,103.2856872,'D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)',,,,,,,,,20.01660605
+rxn08685_c0,101.4918411,'hydrogen peroxide transport via diffusion (external)',,,,,,,,,19.66896145
+EX_cpd00025_e0,101.4918411,'H2O2-e0 Exchange',,,,,,,,,19.66896145
+rxn00161_c0,96.28739485,'(S)-Malate:NADP+ oxidoreductase(oxaloacetate-decarboxylating)',,,,,,,,,18.66034784
+rxn00786_c0,51.64284359,"'D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)'",,,,,,,,,10.00830302
+rxn08535_c0,51.64284359,'Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm)',,,,,,,,,10.00830302
+rxn00852_c0,35.77809753,'Putrescine:oxygen oxidoreductase (deaminating)',,,,,,,,,6.933739831
+rxn00060_c0,32.8568718,'porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)',,,,,,,,,6.367610814
+rxn02264_c0,32.8568718,'Hydroxymethylbilane hydro-lyase(cyclizing)',,,,,,,,,6.367610814
+rxn02288_c0,32.8568718,'Uroporphyrinogen-III carboxy-lyase',,,,,,,,,6.367610814
+rxn09115_c0,32.8568718,'heme-transporting ATPase',,,,,,,,,6.367610814
+rxn09180_c0,32.8568718,'protoporphyrinogen oxidase (anaerobic)',,,,,,,,,6.367610814
+rxn12220_c0,32.8568718,'coproporphyrinogen oxidase',,,,,,,,,6.367610814
+EX_cpd00028_e0,32.8568718,'Heme-e0 Exchange',,,,,,,,,6.367610814
+rxn00224_c0,32.8568718,'protoheme ferro-lyase (protoporphyrin-forming)',,,,,,,,,6.367610814
+rxn00509_c0,32.67108342,'Succinate-semialdehyde:NADP+ oxidoreductase',,,,,,,,,6.331605314
+rxn08691_c0,27.65242553,'hydrogen transport via diffusion (extracellular to periplasm)',,,,,,,,,5.358997196
+EX_cpd11640_e0,27.65242553,'H2-e0 Exchange',,,,,,,,,5.358997196
+rxn00634_c0,25.82142179,'D-Glucitol:NAD+ 2-oxidoreductase',,,,,,,,,5.00415151
+rxn05468_c0,12.5,'TRANS-RXNAVI-26568.ce',,,,,,,,,2.42248062
+rxn90053_c0,5.353076972,'Na(+)-translocating ferredoxin:NAD(+) oxidoreductase complex',,,,,,,,,1.037418018
+BIOMASS_PSEUDO,5.164284359,,,,,,,,,,1.000830302
+EX_cpd00007_e0,-12.5,'O2-e0 Exchange',,,,,,,,,-2.42248062
+rxn01310_c0,-25.82142179,'D-Glucitol:NADP+ 1-oxidoreductase',,,,,,,,,-5.00415151
+rxn90070_c0,-27.65242553,'formate dehydrogenase (ferredoxin)',,,,,,,,,-5.358997196
+rxn90072_c0,-27.65242553,'formate dehydrogenase (hydrogenase)',,,,,,,,,-5.358997196
+rxn00247_c0,-51.64284359,'ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming)',,,,,,,,,-10.00830302
+rxn00747_c0,-51.64284359,'D-glyceraldehyde-3-phosphate aldose-ketose-isomerase',,,,,,,,,-10.00830302
+rxn09681_c0,-51.64284359,'D-fructose transport in via proton symport',,,,,,,,,-10.00830302
+rxn01100_c0,-103.2856872,'ATP:3-phospho-D-glycerate 1-phosphotransferase',,,,,,,,,-20.01660605
+rxn01106_c0,-103.2856872,"'2-Phospho-D-glycerate 2,3-phosphomutase'",,,,,,,,,-20.01660605
+rxn00256_c0,-147.9302384,'acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)',,,,,,,,,-28.66865085
+rxn05938_c0,-147.9302384,'pyruvate ferredoxin oxidoreductase',,,,,,,,,-28.66865085
+rxn13392_c0,-208.9289103,"'putrescine transport in via proton antiport, irreversible'",,,,,,,,,-40.4900989
+rxn12811_c0,-220.7165897,'sulfate transport via sodium symport',,,,,,,,,-42.77453289
+rxn05210_c0,-252.1179875,'phosphate Na+ symporter',,,,,,,,,-48.8600751
+rxn00068_c0,-258.2142179,'Fe2+:NAD+ oxidoreductase',,,,,,,,,-50.0415151
+rxn08233_c0,-258.2142179,'Chloride/proton antiport',,,,,,,,,-50.0415151
+rxn01629_c0,-262.8549744,"'(S)-4-Amino-5-oxopentanoate 4,5-aminomutase'",,,,,,,,,-50.94088651
+rxn05312_c0,-264.3104484,'Inorganic phosphate transporter',,,,,,,,,-51.22295512
+rxn08972_c0,-291.1454051,'NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)',,,,,,,,,-56.42352812
+rxn10604_c0,-295.7118462,'sulfate transport exchange via proton symport',,,,,,,,,-57.30849733
+rxn00260_c0,-316.3659794,'L-Aspartate:2-oxoglutarate aminotransferase',,,,,,,,,-61.31123632
+rxn05467_c0,-422.721523,'CO2 transporter via diffusion',,,,,,,,,-81.92277578
+rxn00799_c0,-508.9407691,'(S)-malate hydro-lyase (fumarate-forming)',,,,,,,,,-98.631932
+rxn05595_c0,-516.4284359,TRANS-RXN-3.ce',,potassium transport in via proton symport,,,,,,,-100.0830302
+rxn08921_c0,-516.4284359,'magnesium (Mg+2) transport in/out via proton antiport (periplasm)',,,,,,,,,-100.0830302
+rxn05466_c0,-1000,'TRANS-RXN-173.ce',,ammonia transport,,,,,,,-193.7984496
+rxn08473_c0,-1000,'Transport of Fe2+',,,,,,,,,-193.7984496
+rxn05319_c0,-1000,'TRANS-RXNBWI-115401.ce.maizeexp.OH_OH',,,,,,Water transport,,,-193.7984496

@@ -1,0 +1,39 @@
+
+--- Top 10 Active Reaction IDs by Flux Magnitude ---
+1. EX_cpd00067_e0
+2. rxn08062_c0
+3. EX_cpd00029_e0
+4. rxn00225_c0
+5. rxn00062_c0
+6. rxn01187_c0
+7. rxn00459_c0
+8. rxn01106_c0
+9. rxn01100_c0
+10. rxn00781_c0
+
+(Actual Flux Values for Context):
+EX_cpd00067_e0    32.935238
+rxn08062_c0      -21.453222
+EX_cpd00029_e0    21.453222
+rxn00225_c0      -21.406909
+rxn00062_c0       15.639343
+rxn01187_c0       14.582201
+rxn00459_c0       10.683610
+rxn01106_c0      -10.683610
+rxn01100_c0      -10.683610
+rxn00781_c0       10.683610
+Name: fluxes, dtype: float64
+
+Top 10 Activated Subsystems (Ranked by Total Absolute Flux):
+----------------------------------------------------------------------
+Subsystem
+BIFIDOSHUNT2             118.256060
+NA-F0F1ATPSYN             21.002001
+PWY-8086                   8.731220
+PWY-7117                   7.658429
+PWY-5386-1                 7.286054
+PWY1                       7.286054
+PWY-8274                   7.286054
+PWY-8377                   6.824708
+CARBOX-HYDROX-BUT-CYC      3.334329
+PWY-5766                   3.277665

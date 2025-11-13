@@ -1,0 +1,26 @@
+rxn05468_c0,12.5,'TRANS-RXNAVI-26568.ce'
+rxn10043_c0,10.83905489,'cytochrome-c oxidase (H+/e- = 2)'
+rxn90092_c0,10.40251937,'Quinone reductase'
+rxn05466_c0,7.472804824,'TRANS-RXN-173.ce'
+rxn40053_c0,7.080524754,'hydroxylamine dehydrogenase'
+rxn90090_c0,7.080524754,'ammonia monooxygenase'
+rxn90091_c0,7.080524754,'Nitrite oxidoreductase'
+rxn08173_c0,6.262324967,'F(1)-ATPase'
+rxn00184_c0,1.774400883,'L-Glutamate:NADP+ oxidoreductase (deaminating)'
+rxn05467_c0,1.567123282,'CO2 transporter via diffusion'
+rxn00260_c0,-1.049927071,'L-Aspartate:2-oxoglutarate aminotransferase'
+rxn00102_c0,-1.826996292,'carbonate hydro-lyase (carbon-dioxide-forming)'
+rxn00182_c0,-3.080991288,'L-glutamate:NAD+ oxidoreductase (deaminating)'
+rxn08972_c0,-3.75428007,'NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)'
+rxn05319_c0,-6.494776047,'TRANS-RXNBWI-115401.ce.maizeexp.OH_OH'
+rxn05627_c0,-7.080524754,'nitrate transport in via proton symport'
+,,
+,,
+,,
+,,
+EX_cpd00067_e0,14.47087325,'H+-e0 Exchange'
+EX_cpd00209_e0,7.080524754,'Nitrate Exchange'
+EX_cpd00001_e0,6.494776047,'H2O-e0 Exchange'
+EX_cpd00011_e0,-1.567123282,'CO2-e0 Exchange'
+EX_cpd00013_e0,-7.472804824,'NH3-e0 Exchange'
+EX_cpd00007_e0,-12.5,'O2-e0 Exchange'
