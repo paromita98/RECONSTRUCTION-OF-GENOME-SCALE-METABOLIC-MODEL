@@ -1,0 +1,202 @@
+import micom
+print(micom.__version__)
+
+
+import sys
+import os
+import cobra
+import pandas as pd
+from micom.community import Community
+from cobra import Model
+
+
+sys.setrecursionlimit(10000)
+cobra.Configuration().solver = "glpk"
+
+EPSILON = 1e-6
+FLUX_THRESHOLD = 0.5
+MIN_FLUX = max(EPSILON, FLUX_THRESHOLD)
+
+OUTDIR = r"E:/gapseq-output/final_results"
+os.makedirs(OUTDIR, exist_ok=True)
+
+print("Solver:", cobra.Configuration().solver)
+
+
+model_files = [
+    r"E:/gapseq/cometspy_models/Corynebacterium-Pseudopelargi_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Serinicoccus-marinus_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Fischerella-sp-NIES-3754_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Leptolyngbya_sp.O-77_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Nostoc-punctiforme_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Oscillatoria-nigro-viridis_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Stanieria-Cyanosphaera_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Phycisphaera-mikurensis_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Alcanivorax_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Brevundimonas-naejangsanensisconstrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Diaphorobacter-nitroreducens_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Enterobacter-Hormaechei_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Gemmobacter-aquarius_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Hypericibacter-adhaerens_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Hyphomicrobium-nitrativorans_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Minicystis-rosea_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Phenylobacterium-zucineum_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Roseibacterium-elongatum_constrained_model_solution.xml",
+    r"E:/gapseq/cometspy_models/Roseitalea-porphyridii_constrained_model_solution.xml",
+]
+
+
+taxonomy_rows = []
+
+for path in model_files:
+    species_id = os.path.basename(path).replace(".xml", "")
+    taxonomy_rows.append({
+        "id": species_id,
+        "file": path,       
+        "abundance": 1.0
+    })
+
+taxonomy = pd.DataFrame(taxonomy_rows)
+taxonomy["abundance"] /= taxonomy["abundance"].sum()
+
+print("\nMICOM taxonomy:")
+print(taxonomy)
+
+community = Community(
+    taxonomy=taxonomy,
+    id="Merged_Community",
+    solver="glpk"
+)
+
+print("\n Running MICOM optimization...")
+solution = community.optimize()
+print(" MICOM finished")
+
+members = solution.members.copy()
+members["species"] = members.index
+
+members.to_csv(
+    os.path.join(OUTDIR, "micom_species_growth.csv"),
+    index=False
+)
+
+merged_biomass = members["growth_rate"].sum()
+pd.DataFrame({"community_biomass": [merged_biomass]}).to_csv(
+    os.path.join(OUTDIR, "micom_community_biomass.csv"),
+    index=False
+)
+
+print("\n Species growth rates:")
+print(members[["species", "growth_rate"]])
+print("\n Community biomass:", merged_biomass)
+
+
+species_data = []
+
+print("\n Reloading models for merging...")
+
+for path in model_files:
+    species_id = os.path.basename(path).replace(".xml", "")
+    model = cobra.io.read_sbml_model(path)
+    model.solver = "glpk"
+
+    species_data.append({
+        "id": species_id,
+        "model": model
+    })
+
+ 
+merged_model = Model("Merged_Community_Model")
+
+print("\n Merging species models...")
+
+for entry in species_data:
+    model = entry["model"]
+    prefix = entry["id"]
+
+    for rxn in model.reactions:
+        rxn.id = f"{prefix}__{rxn.id}"
+
+    for met in model.metabolites:
+        met.id = f"{prefix}__{met.id}"
+
+    merged_model.add_reactions(model.reactions)
+
+print(" Models merged")
+
+
+sbml_path = os.path.join(OUTDIR, "merged_community_model.xml")
+json_path = os.path.join(OUTDIR, "merged_community_model.json")
+
+cobra.io.write_sbml_model(merged_model, sbml_path)
+cobra.io.save_json_model(merged_model, json_path)
+
+print("\n Saved merged model:")
+print(" -", sbml_path)
+print(" -", json_path)
+
+
+biomass_rxns = [r for r in merged_model.reactions if "biomass" in r.id.lower()]
+merged_model.objective = {r: 1.0 for r in biomass_rxns}
+
+solution = merged_model.optimize()
+print("\n📈Community growth:", solution.objective_value)
+
+
+def get_species(entity_id):
+    return entity_id.split("__")[0] if "__" in entity_id else "Community"
+
+
+reaction_rows = []
+
+for rxn in merged_model.reactions:
+    flux = solution.fluxes.get(rxn.id, 0.0)
+    if abs(flux) >= MIN_FLUX:
+        reaction_rows.append({
+            "reaction_id": rxn.id,
+            "species": get_species(rxn.id),
+            "subsystem": rxn.subsystem if rxn.subsystem else "NA",
+            "flux": flux
+        })
+
+rxn_df = pd.DataFrame(reaction_rows)
+rxn_df.sort_values(by="flux", key=lambda x: x.abs(), ascending=False, inplace=True)
+
+rxn_df.to_csv(
+    os.path.join(OUTDIR, "active_reactions.csv"),
+    index=False
+)
+
+print("\n Top 20 active reactions:")
+print(rxn_df.head(20))
+
+
+met_turnover = {}
+
+for rxn in merged_model.reactions:
+    flux = solution.fluxes.get(rxn.id, 0.0)
+    if abs(flux) < MIN_FLUX:
+        continue
+
+    for met, coeff in rxn.metabolites.items():
+        met_turnover.setdefault(met.id, 0.0)
+        met_turnover[met.id] += abs(flux * coeff)
+
+met_df = (
+    pd.DataFrame.from_dict(met_turnover, orient="index", columns=["turnover"])
+    .sort_values("turnover", ascending=False)
+    .reset_index()
+    .rename(columns={"index": "metabolite_id"})
+)
+
+met_df["species"] = met_df["metabolite_id"].apply(get_species)
+
+met_df.to_csv(
+    os.path.join(OUTDIR, "active_metabolites.csv"),
+    index=False
+)
+
+print("\n Top 20 active metabolites:")
+print(met_df.head(20))
+
+print("\n FULL PIPELINE COMPLETED SUCCESSFULLY")
