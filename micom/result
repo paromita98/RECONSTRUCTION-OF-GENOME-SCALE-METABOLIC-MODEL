@@ -4,51 +4,51 @@ Building ━━━━━━━━━━━━━━━━━━━━━━━�
  MICOM finished
 
 Species growth rates:
-                                                                                              species  \
+                                                      species  \
 compartments                                                                                            
-Alcanivorax_constrained_model_solution                         Alcanivorax_constrained_model_solution   
-Brevundimonas_naejangsanensisconstrained_model_...  Brevundimonas_naejangsanensisconstrained_model...   
-Corynebacterium_Pseudopelargi_constrained_model...  Corynebacterium_Pseudopelargi_constrained_mode...   
-Diaphorobacter_nitroreducens_constrained_model_...  Diaphorobacter_nitroreducens_constrained_model...   
-Enterobacter_Hormaechei_constrained_model_solution  Enterobacter_Hormaechei_constrained_model_solu...   
-Fischerella_sp_NIES_3754_constrained_model_solu...  Fischerella_sp_NIES_3754_constrained_model_sol...   
-Gemmobacter_aquarius_constrained_model_solution       Gemmobacter_aquarius_constrained_model_solution   
-Hypericibacter_adhaerens_constrained_model_solu...  Hypericibacter_adhaerens_constrained_model_sol...   
-Hyphomicrobium_nitrativorans_constrained_model_...  Hyphomicrobium_nitrativorans_constrained_model...   
-Leptolyngbya_sp_O_77_constrained_model_solution       Leptolyngbya_sp_O_77_constrained_model_solution   
-Minicystis_rosea_constrained_model_solution               Minicystis_rosea_constrained_model_solution   
-Nostoc_punctiforme_constrained_model_solution           Nostoc_punctiforme_constrained_model_solution   
-Oscillatoria_nigro_viridis_constrained_model_so...  Oscillatoria_nigro_viridis_constrained_model_s...   
-Phenylobacterium_zucineum_constrained_model_sol...  Phenylobacterium_zucineum_constrained_model_so...   
-Phycisphaera_mikurensis_constrained_model_solution  Phycisphaera_mikurensis_constrained_model_solu...   
-Roseibacterium_elongatum_constrained_model_solu...  Roseibacterium_elongatum_constrained_model_sol...   
-Roseitalea_porphyridii_constrained_model_solution   Roseitalea_porphyridii_constrained_model_solution   
-Serinicoccus_marinus_constrained_model_solution       Serinicoccus_marinus_constrained_model_solution   
-Stanieria_Cyanosphaera_constrained_model_solution   Stanieria_Cyanosphaera_constrained_model_solution   
-medium                                                                                         medium   
+Alcanivorax_pacificus                        Alcanivorax_pacificus  
+Brevundimonas_naejangsanensis  Brevundimonas_naejangsanensis.   
+Corynebacterium_Pseudopelargi  Corynebacterium_Pseudopelargi 
+Diaphorobacter_nitroreducens  Diaphorobacter_nitroreducens_.   
+Enterobacter_Hormaecheiution  Enterobacter_Hormaecheiu...   
+Fischerella_sp_NIES_3754u...  Fischerella_sp_NIES_3754...   
+Gemmobacter_aquariusution       Gemmobacter_aquariusution   
+Hypericibacter_adhaerensu...  Hypericibacter_adhaerens...   
+Hyphomicrobium_nitrativorans  Hyphomicrobium_nitrativorans_.   
+Leptolyngbya_sp_O_77ution       Leptolyngbya_sp_O_77ution   
+Minicystis_roseaution               Minicystis_roseaution   
+Nostoc_punctiformeution           Nostoc_punctiformeution   
+Oscillatoria_nigro_viridis..  Oscillatoria_nigro_viridis.   
+Phenylobacterium_zucineum...  Phenylobacterium_zucineum..   
+Phycisphaera_mikurensisution  Phycisphaera_mikurensisu...   
+Roseibacterium_elongatumu...  Roseibacterium_elongatum...   
+Roseitalea_porphyridiiution   Roseitalea_porphyridiiution   
+Serinicoccus_marinusution       Serinicoccus_marinusution   
+Stanieria_Cyanosphaeraution   Stanieria_Cyanosphaeraution   
+medium                                                       medium   
 
-                                                    growth_rate  
+                                  growth_rate  
 compartments                                                     
-Alcanivorax_constrained_model_solution                 0.500000  
-Brevundimonas_naejangsanensisconstrained_model_...     0.000000  
-Corynebacterium_Pseudopelargi_constrained_model...     5.312500  
-Diaphorobacter_nitroreducens_constrained_model_...     0.000000  
-Enterobacter_Hormaechei_constrained_model_solution     0.000000  
-Fischerella_sp_NIES_3754_constrained_model_solu...     0.000000  
-Gemmobacter_aquarius_constrained_model_solution        5.543195  
-Hypericibacter_adhaerens_constrained_model_solu...     0.000000  
-Hyphomicrobium_nitrativorans_constrained_model_...     5.453491  
-Leptolyngbya_sp_O_77_constrained_model_solution        0.000000  
-Minicystis_rosea_constrained_model_solution            0.000000  
-Nostoc_punctiforme_constrained_model_solution          5.062500  
-Oscillatoria_nigro_viridis_constrained_model_so...     0.000000  
-Phenylobacterium_zucineum_constrained_model_sol...     0.000000  
-Phycisphaera_mikurensis_constrained_model_solution     5.270972  
-Roseibacterium_elongatum_constrained_model_solu...     0.000000  
-Roseitalea_porphyridii_constrained_model_solution      0.000000  
-Serinicoccus_marinus_constrained_model_solution        0.500000  
-Stanieria_Cyanosphaera_constrained_model_solution      5.198984  
-medium                                                      NaN  
+Alcanivorax_pacificus                0.500000  
+Brevundimonas_naejangsanensis    0.000000  
+Corynebacterium_Pseudopelargi_.     5.312500  
+Diaphorobacter_nitroreducens     0.000000  
+Enterobacter_Hormaecheiution     0.000000  
+Fischerella_sp_NIES_3754u...     0.000000  
+Gemmobacter_aquariusution        5.543195  
+Hypericibacter_adhaerensu...     0.000000  
+Hyphomicrobium_nitrativorans     5.453491  
+Leptolyngbya_sp_O_77ution        0.000000  
+Minicystis_roseaution            0.000000  
+Nostoc_punctiformeution          5.062500  
+Oscillatoria_nigro_viridis..     0.000000  
+Phenylobacterium_zucineum...     0.000000  
+Phycisphaera_mikurensisution     5.270972  
+Roseibacterium_elongatumu...     0.000000  
+Roseitalea_porphyridiiution      0.000000  
+Serinicoccus_marinusution        0.500000  
+Stanieria_Cyanosphaeraution      5.198984  
+ 
 
  Community biomass: 32.84164248690328
 
@@ -66,92 +66,92 @@ medium                                                      NaN
 
  Top 20 active reactions:
                                            reaction_id  \
-113  Serinicoccus-marinus_constrained_model_solutio...   
+113  Serinicoccus-marinusutio...   
 55   Corynebacterium-Pseudopelargi_constrained_mode...   
-515  Phycisphaera-mikurensis_constrained_model_solu...   
-589  Alcanivorax_constrained_model_solution__rxn054...   
-488  Phycisphaera-mikurensis_constrained_model_solu...   
-909  Hyphomicrobium-nitrativorans_constrained_model...   
-634  Alcanivorax_constrained_model_solution__EX_cpd...   
-631  Alcanivorax_constrained_model_solution__EX_cpd...   
-629  Alcanivorax_constrained_model_solution__EX_cpd...   
-595  Alcanivorax_constrained_model_solution__rxn081...   
-790  Gemmobacter-aquarius_constrained_model_solutio...   
-152  Serinicoccus-marinus_constrained_model_solutio...   
-150  Serinicoccus-marinus_constrained_model_solutio...   
-155  Serinicoccus-marinus_constrained_model_solutio...   
-429  Stanieria-Cyanosphaera_constrained_model_solut...   
-398  Stanieria-Cyanosphaera_constrained_model_solut...   
-431  Stanieria-Cyanosphaera_constrained_model_solut...   
-138  Serinicoccus-marinus_constrained_model_solutio...   
-119  Serinicoccus-marinus_constrained_model_solutio...   
-902  Hyphomicrobium-nitrativorans_constrained_model...   
+515  Phycisphaera-mikurensisu...   
+589 Alcanivorax_pacificus_rxn054...   
+488  Phycisphaera-mikurensisu...   
+909  Hyphomicrobium-nitrativorans_.   
+634  Alcanivorax_pacificus__EX_cpd...   
+631  Alcanivorax_pacificus__EX_cpd...   
+629 Alcanivorax_pacificus__EX_cpd...   
+595  Alcanivorax_pacificus__rxn081...   
+790  Gemmobacter-aquariusutio...   
+152  Serinicoccus-marinusutio...   
+150  Serinicoccus-marinusutio...   
+155  Serinicoccus-marinusutio...   
+429  Stanieria-Cyanosphaeraut...   
+398  Stanieria-Cyanosphaeraut...   
+431  Stanieria-Cyanosphaeraut...   
+138  Serinicoccus-marinusutio...   
+119  Serinicoccus-marinusutio...   
+902  Hyphomicrobium-nitrativorans_.   
 
-                                               species subsystem    flux  
-113    Serinicoccus-marinus_constrained_model_solution        NA -1000.0  
-55   Corynebacterium-Pseudopelargi_constrained_mode...        NA  1000.0  
-515  Phycisphaera-mikurensis_constrained_model_solu...        NA  1000.0  
-589             Alcanivorax_constrained_model_solution        NA -1000.0  
-488  Phycisphaera-mikurensis_constrained_model_solu...        NA -1000.0  
-909  Hyphomicrobium-nitrativorans_constrained_model...        NA  1000.0  
-634             Alcanivorax_constrained_model_solution        NA  1000.0  
-631             Alcanivorax_constrained_model_solution        NA  1000.0  
-629             Alcanivorax_constrained_model_solution        NA  1000.0  
-595             Alcanivorax_constrained_model_solution  PWY-7980  1000.0  
-790    Gemmobacter-aquarius_constrained_model_solution        NA  1000.0  
-152    Serinicoccus-marinus_constrained_model_solution        NA  1000.0  
-150    Serinicoccus-marinus_constrained_model_solution        NA  1000.0  
-155    Serinicoccus-marinus_constrained_model_solution        NA  1000.0  
-429  Stanieria-Cyanosphaera_constrained_model_solution        NA  1000.0  
-398  Stanieria-Cyanosphaera_constrained_model_solution        NA -1000.0  
-431  Stanieria-Cyanosphaera_constrained_model_solution        NA  1000.0  
-138    Serinicoccus-marinus_constrained_model_solution        NA -1000.0  
-119    Serinicoccus-marinus_constrained_model_solution  PWY-7980  1000.0  
-902  Hyphomicrobium-nitrativorans_constrained_model...        NA  1000.0  
+                                 species subsystem    flux  
+113    Serinicoccus-marinusution        NA -1000.0  
+55   Corynebacterium-Pseudopelargi      NA  1000.0  
+515  Phycisphaera-mikurensisu...        NA  1000.0  
+589             Alcanivorax_pacificus       NA -1000.0  
+488  Phycisphaera-mikurensisu...        NA -1000.0  
+909  Hyphomicrobium-nitrativorans        NA  1000.0  
+634             Alcanivorax_pacificus       NA  1000.0  
+631             Alcanivorax_pacificus       NA  1000.0  
+629             Alcanivorax_pacificus       NA  1000.0  
+595             Alcanivorax_pacificus PWY-7980  1000.0  
+790    Gemmobacter-aquariusution        NA  1000.0  
+152    Serinicoccus-marinusution        NA  1000.0  
+150    Serinicoccus-marinusution        NA  1000.0  
+155    Serinicoccus-marinusution        NA  1000.0  
+429  Stanieria-Cyanosphaeraution        NA  1000.0  
+398  Stanieria-Cyanosphaeraution        NA -1000.0  
+431  Stanieria-Cyanosphaeraution        NA  1000.0  
+138    Serinicoccus-marinusution        NA -1000.0  
+119    Serinicoccus-marinusution  PWY-7980  1000.0  
+902  Hyphomicrobium-nitrativorans       NA  1000.0  
 
 🔝 Top 20 active metabolites:
-                                        metabolite_id      turnover  \
-0   Alcanivorax_constrained_model_solution__cpd000...  31770.992126   
-1   Serinicoccus-marinus_constrained_model_solutio...  26564.756434   
-2   Alcanivorax_constrained_model_solution__cpd000...  25610.180930   
-3   Stanieria-Cyanosphaera_constrained_model_solut...  23393.897638   
-4   Serinicoccus-marinus_constrained_model_solutio...  20530.192152   
-5   Phycisphaera-mikurensis_constrained_model_solu...  19170.299587   
-6   Hyphomicrobium-nitrativorans_constrained_model...  16343.195266   
-7   Corynebacterium-Pseudopelargi_constrained_mode...  14880.998829   
-8   Hyphomicrobium-nitrativorans_constrained_model...  14544.378698   
-9   Stanieria-Cyanosphaera_constrained_model_solut...  13550.787402   
-10  Corynebacterium-Pseudopelargi_constrained_mode...  12552.477565   
-11  Gemmobacter-aquarius_constrained_model_solutio...  12532.467532   
-12  Phycisphaera-mikurensis_constrained_model_solu...  11451.033058   
-13  Gemmobacter-aquarius_constrained_model_solutio...  11272.727273   
-14  Serinicoccus-marinus_constrained_model_solutio...   7042.214119   
-15  Alcanivorax_constrained_model_solution__cpd000...   6522.768757   
-16  Alcanivorax_constrained_model_solution__cpd000...   4823.336199   
-17  Alcanivorax_constrained_model_solution__cpd009...   4635.134981   
-18  Alcanivorax_constrained_model_solution__cpd009...   4635.134981   
-19  Alcanivorax_constrained_model_solution__cpd001...   3991.280196   
+             metabolite_id      turnover  \
+0   Alcanivorax_pacificus__cpd000...  31770.992126   
+1   Serinicoccus-marinusutio...  26564.756434   
+2   Alcanivorax_pacificus__cpd000...  25610.180930   
+3   Stanieria-Cyanosphaeraut...  23393.897638   
+4   Serinicoccus-marinusutio...  20530.192152   
+5   Phycisphaera-mikurensisu...  19170.299587   
+6   Hyphomicrobium-nitrativorans  16343.195266   
+7   Corynebacterium-Pseudopelarg  14880.998829   
+8   Hyphomicrobium-nitrativorans  14544.378698   
+9   Stanieria-Cyanosphaeraut...  13550.787402   
+10  Corynebacterium-Pseudopelargi  12552.477565   
+11  Gemmobacter-aquariusutio...  12532.467532   
+12  Phycisphaera-mikurensisu...  11451.033058   
+13  Gemmobacter-aquariusutio...  11272.727273   
+14  Serinicoccus-marinusutio...   7042.214119   
+15 Alcanivorax_pacificus__cpd000...   6522.768757   
+16  Alcanivorax_pacificus_cpd000...   4823.336199   
+17  Alcanivorax_pacificus_cpd009...   4635.134981   
+18  Alcanivorax_pacificus__cpd009...   4635.134981   
+19  Alcanivorax_pacificus__cpd001...   3991.280196   
 
-                                              species  
-0              Alcanivorax_constrained_model_solution  
-1     Serinicoccus-marinus_constrained_model_solution  
-2              Alcanivorax_constrained_model_solution  
-3   Stanieria-Cyanosphaera_constrained_model_solution  
-4     Serinicoccus-marinus_constrained_model_solution  
-5   Phycisphaera-mikurensis_constrained_model_solu...  
-6   Hyphomicrobium-nitrativorans_constrained_model...  
-7   Corynebacterium-Pseudopelargi_constrained_mode...  
-8   Hyphomicrobium-nitrativorans_constrained_model...  
-9   Stanieria-Cyanosphaera_constrained_model_solution  
-10  Corynebacterium-Pseudopelargi_constrained_mode...  
-11    Gemmobacter-aquarius_constrained_model_solution  
-12  Phycisphaera-mikurensis_constrained_model_solu...  
-13    Gemmobacter-aquarius_constrained_model_solution  
-14    Serinicoccus-marinus_constrained_model_solution  
-15             Alcanivorax_constrained_model_solution  
-16             Alcanivorax_constrained_model_solution  
-17             Alcanivorax_constrained_model_solution  
-18             Alcanivorax_constrained_model_solution  
-19             Alcanivorax_constrained_model_solution  
+                  species  
+0              Alcanivorax_pacificus 
+1     Serinicoccus-marinusution  
+2              Alcanivorax_pacificus 
+3   Stanieria-Cyanosphaeraution  
+4     Serinicoccus-marinusution  
+5   Phycisphaera-mikurensisu...  
+6   Hyphomicrobium-nitrativorans
+7   Corynebacterium-Pseudopelargi 
+8   Hyphomicrobium-nitrativorans 
+9   Stanieria-Cyanosphaeraution  
+10  Corynebacterium-Pseudopelargi
+11    Gemmobacter-aquariusution  
+12  Phycisphaera-mikurensisu...  
+13    Gemmobacter-aquariusution  
+14    Serinicoccus-marinusution  
+15             Alcanivorax_pacificus 
+16             Alcanivorax_pacificus 
+17             Alcanivorax_pacificus 
+18             Alcanivorax_pacificus 
+19             Alcanivorax_pacificus 
 
  FULL PIPELINE COMPLETED SUCCESSFULLY
